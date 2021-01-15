@@ -20,7 +20,7 @@ Sub Stock_Analysis_1()
     Dim PercentChange As Double
     Dim LastRowValue As Long
         
-'Loop / Iterate Through All Worksheets
+'Loop Through All Worksheets
     For Each ws In Worksheets
         ws.Range("I1").Value = "Ticker"
         ws.Range("J1").Value = "Yearly Change"

@@ -10,7 +10,7 @@ Sub Stock_Analysis_2()
     Dim LastRowValue As Long
     Dim GreatestTotalVolume As Double
         
-'Loop / Iterate Through All Worksheets
+'Loop Through All Worksheets
     For Each ws In Worksheets
         ws.Range("P1").Value = "Ticker"
         ws.Range("Q1").Value = "Value"
